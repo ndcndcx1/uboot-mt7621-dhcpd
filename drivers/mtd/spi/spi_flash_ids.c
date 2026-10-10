@@ -394,6 +394,7 @@ const struct spi_flash_info spi_flash_ids[] = {
 #endif
 #ifdef CONFIG_SPI_FLASH_XMC
 	/* XMC (Wuhan Xinxin Semiconductor Manufacturing Corp.) */
+	{ "XM25QH32B",		INFO(0x204016, 0x0, 64 * 1024, 64, RD_FULL | SECT_4K) },
 	{ "XM25QH64A",		INFO(0x207017, 0x0, 64 * 1024, 128, RD_FULL | SECT_4K) },
 	{ "XM25QH64C",		INFO(0x204017, 0x0, 64 * 1024, 128, RD_FULL | SECT_4K) },
 	{ "XM25QH128A",		INFO(0x207018, 0x0, 64 * 1024, 256, RD_FULL | SECT_4K) },
